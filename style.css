@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(facebook-background.jpg);
+   
+    background-size: cover;
+    font-size: larger;
+    width: 100%;
+    height: auto;
+    display: flexbox;
+    /* grid-template-columns: 0px 0fpx; */
+}
+#id {
+    display: flex;
+    
+}
+.box1{
+    width: 50%;
+    height: 100%;
+    font-weight: bolder;
+    display: block;
+    background: transparent;
+    margin-top: 60px;
+    margin-left: 10px;
+   color: blue;
+    margin-top: 229px;
+    padding-left: 10px;
+
+
+}
+.box2{
+    width: 50%;
+    align-items: center;
+   
+    margin-left: 10px;
+    margin-top: 189px;
+    height: 100%;
+}
+h1{
+    margin-left: 55%;
+    color: blue;
+    font-size: 62px;
+}
+span{
+    /* padding-left: 263px; */
+    font-size: 12px;
+    margin-left: 175px;
+}
+
+h2{
+    margin-left: 60%;
+    margin-top: 8px;
+    font-size: 30px;
+    font-size: 18px;
+    color: white;
+    font-family: cursive;
+}
+form{
+    background-color: rgba(0,0,0,0);
+    width: 58%;
+    height: 321px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px blue;
+    margin-left: 88px;
+    margin-top: -7px;
+    margin-bottom: px;
+    padding: 10px;
+}
+
+input{
+    /* margin: 1px; */
+    background: transparent;
+    color: white;
+    padding: 6px;
+    width: 300px;
+    height: 27px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px blue;
+    margin-top: 15px;
+    border: none;
+}
+.btn input{
+    height: 25px;
+    width: auto;
+    border: none;
+}
+a{
+    margin: 10px;
+    /* background-color: blue; 
+     width: 200px ;
+    height: 20px; */
+    color:blue;
+    font-size: 20px;
+  
+    /* padding: 10px;
+    border-radius: 10px;*/
+    text-decoration: none; 
+}
+.anchor{
+    width: 150px;
+    height: 50px;
+}
+button{
+    border: none;
+    margin: 4px;
+    /* background-color: white; */
+    color: black;
+    padding: 6px;
+    width: 309px;
+    height: 39px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px blue;
+    margin: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+   
+}
+hr{
+    margin-top: 2px;
+   border-color:blue;
+    color: black;
+
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    text-shadow: 0,0,20 #fff,
+    0,0,30 #fff,
+    0,0,40 #fff,
+    0,0,50 #fff,
+    0,0,60 #fff,
+    0,0,70 #fff;
+
+}
+    section :hover{
+   
+    background-color: lightskyblue;
+  
+    color:white;
+  
+    
+
+
+}
+    form:hover{
+    box-shadow: 7px 7px 20px rgb(9, 13, 236);
+    transition-delay: 0.3s;
+    transition: 1s;
+    transition-duration: 2s;
+
+}
+    ::placeholder{
+    color: black;
+    font-size: 15px;
+}
